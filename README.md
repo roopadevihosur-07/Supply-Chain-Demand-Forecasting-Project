@@ -6,32 +6,6 @@ This project is built for **learning**: every script is heavily commented, and t
 
 ---
 
-## What You'll Learn
-
-**Supply chain concepts**
-- Why demand forecasting drives every downstream SC decision (inventory, capacity, procurement)
-- How forecast accuracy translates into business cost (over-forecast → excess inventory; under-forecast → stockouts)
-- Why bias is often more dangerous than total error
-
-**Time-series concepts**
-- Time-series components: level, trend, seasonality, residual
-- Stationarity and the Augmented Dickey-Fuller test
-- Autocorrelation (ACF/PACF) and how it informs ARIMA orders
-- Why you NEVER shuffle data for time series cross-validation
-
-**Modeling concepts**
-- Baseline models and why they matter (you must beat them to claim value)
-- Exponential smoothing family (Holt-Winters)
-- ARIMA / SARIMA family (autoregressive + moving average)
-- Decomposable models (Prophet)
-- ML approach with engineered features (XGBoost)
-
-**Evaluation concepts**
-- MAE vs RMSE vs MAPE — when to use each
-- Forecast bias and its operational consequences
-
----
-
 ## How to Run
 
 ```bash
